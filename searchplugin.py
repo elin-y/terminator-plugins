@@ -45,7 +45,7 @@ class SearchPlugin(plugin.Plugin):
                 displaystring = self.searchstring[:37] + "..."
             else:
                 displaystring = self.searchstring
-            item.set_label("Search Google for \"%s\"" % displaystring)
+            item.set_label("Search on Google")
             item.set_sensitive(True)
         else:
             item.set_label("Search Google")
